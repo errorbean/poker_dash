@@ -1,0 +1,10 @@
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Input, Output
+from app import dash_app
+
+layout = html.Div(children=[
+        html.Div(children='''
+            Player
+        '''),
+    ])
